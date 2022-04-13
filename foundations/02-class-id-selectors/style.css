@@ -1,0 +1,21 @@
+*{
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif'  ;
+    font-size: 36px;
+}
+
+.paragraphRed{
+    background-color: #f08080;
+}
+.large{
+    font-size: 1.5em;
+}
+
+#div1 {
+    color: #0000ff;
+    font-size: 2em;
+}
+
+#div2 {
+    background-color: #addf2f;
+    font-weight: 900;
+}
