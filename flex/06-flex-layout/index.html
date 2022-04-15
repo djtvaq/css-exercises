@@ -7,18 +7,21 @@
     <title>LAYOUT</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
-    <div class="header">
-      <ul class="left-links">
+  <body class="flex flex-col justify-between">
+
+    <nav class="p-16 flex justify-between">
+      <ul class="left-links flex justify-around gap-16">
         <li><a href="#">About</a></li>
         <li><a href="#">Store</a></li>
       </ul>
-      <ul class="right-links">
+      <ul class="right-links flex justify-around gap-16">
         <li><a href="#">Profile</a></li>
         <li><a href="#">Settings</a></li>
       </ul>
-    </div>
-    <div class="content">
+    </nav>
+
+
+    <div class="content flex flex-col items-center gap-16">
       <img src="./logo.png" alt="">
       <div class="input">
         <input type="text">
@@ -28,15 +31,20 @@
         <button>Do the other thing!</button>
       </div>
     </div>
-    <div class="footer">
-      <ul class="left-links">
+
+
+    <footer class="p-16  flex justify-between">
+      <ul class="left-links flex justify-around gap-16">
         <li><a href="#">Advertising</a></li>
         <li><a href="#">Business</a></li>
       </ul>
-      <ul class="right-links">
+      <ul class="right-links flex justify-around gap-16">
         <li><a href="#">Privacy</a></li>
         <li><a href="#">Terms</a></li>
       </ul>
-    </div>
+    </footer>
+
+
+
   </body>
 </html>
