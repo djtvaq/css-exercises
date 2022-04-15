@@ -3,7 +3,8 @@
   background: papayawhip;
   display: flex;
   padding:8px;
-  justify-content: space-around;
+  /* mistake: justify-content: space-around; */
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -13,7 +14,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-flex-basis: auto;
+/* mistake: flex-basis: auto; */
 
 }
 
@@ -22,6 +23,10 @@ ul {
   list-style-type: none;
   margin:0;
   padding:0;
+
+  /* Post solution:  use display flex and gap to have list items go horizontally with spacing */
+  display:flex;
+  gap: 8px;
 }
 
 a {
@@ -31,16 +36,24 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
-li {
+
+
+
+
+/* this was my added code which was unecessary
+*/
+
+/* li {
   display: inline;
-}
-.left-links,
+} */
+
+/* .left-links,
 .right-links {
   flex: 1;
   gap: 10px;
 
-}
+} */
 
-.right-links {
+/* .right-links {
   display: flex;
-justify-content: end;}
+justify-content: end;} */
