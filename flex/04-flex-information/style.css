@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+text-align: center;
 }
 
 img {
@@ -17,9 +18,9 @@ img {
   display: flex;
 }
 
-.flex-column {
+/* .flex-column {
   flex-direction: column;
-}
+}  this is not necessary to make the cards vertical, when they are naturally vertical*/
 
 .flex-center {
   align-items: center;
